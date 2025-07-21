@@ -66,5 +66,7 @@ df_simple.to_csv('vaccination_analyse.csv', sep=';', index=False)
 
 print("Fichier CSV 'vaccination_analyse.csv' exporté avec succès.")
 
+
+plt.savefig("Vaccination_covid.png", format="PNG")
 plt.show()
 
